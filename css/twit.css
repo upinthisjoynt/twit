@@ -1,0 +1,82 @@
+@media screen and (max-width: 480px) {
+    body {
+        background-color: #ca0002;
+    }
+    body #banner {
+    	border-bottom:3px solid #fff;
+    }
+    body #cnnFeed .tweet {
+		width:90% ;
+		clear:both;
+    }
+}
+
+
+/* iPhone 6 */
+@media only screen 
+and (min-device-width : 375px) 
+and (max-device-width : 667px) { 
+
+	body {
+        background-color: #ca0002;
+    }
+    body #cnnFeed .tweet {
+		width:97% ;
+		clear:both;
+    }
+
+}
+/* Samsung */
+@media screen and (device-width: 360px) and (device-height: 640px) and (-webkit-device-pixel-ratio: 3) {
+	body {
+        background-color: #ca0002;
+    }
+    body #cnnFeed .tweet {
+		width:96% ;
+		clear:both;
+    }
+}
+
+#banner {
+	float:left;
+	clear:both;
+	width:100%;
+	height:85px;
+	margin:10px 0;
+	background: #ca0002 url('/images/logo_cnn_badge_2up.png') no-repeat center center;
+}
+#cnnFeed {
+	float: left;
+	width: 100%;
+	height: auto;
+}
+	#cnnFeed .tweet {
+		float: left;
+		clear: none;
+		width: 200px;
+		height: 200px;
+		background: #ccc;
+		overflow: scroll;
+		color:#000;
+		margin:10px;
+		padding:7px;
+	}
+
+		#cnnFeed .tweet img{
+			float: left;
+			clear: none;
+			margin: 0 10px;
+		}
+		#cnnFeed .tweet .userName{
+			float: left;
+			clear: right;
+			color: blue;
+		}
+		#cnnFeed .tweet .created{
+			float: left;
+			clear: none;
+		}
+		#cnnFeed .tweet p{
+			float: left;
+			clear: none;
+		}
